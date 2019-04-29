@@ -1,0 +1,209 @@
+css.css
+@charset "utf-8";
+/* CSS Document */
+
+body{
+font: 14px/1.6 "Hiragino Kaku Gothic Pro",Osaka,"メイリオ","ＭＳ Ｐゴシック","MS PGothic",Verdana,Arial,sans-serif;
+margin:0;
+color:#313131;
+}
+
+img{
+outline:none;
+border-style:none;
+}
+
+a{
+    color:blue;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+}
+a:visited{
+    color:blue;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+}
+a:hover {
+    color: #F5A862;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+}
+/*メニュー*/
+.menu{
+margin: 0;
+padding: 0;
+list-style: none;
+overflow: hidden;
+}
+
+.menu li{
+padding: 0;
+margin: 0;
+float:center;
+}
+
+.menu li a{
+display: block;
+border: 0px;
+padding: 5px;
+text-decoration: none;
+color: black;
+background-color: #90ee90;
+width: 100px;
+height: 25px;
+margin: 6px;
+text-align: center;
+font-size: 14px;
+border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+
+}
+/*****HEADER*****/
+header{
+    display: block;
+    width:60%;
+    margin-left: 20%;
+    overflow: hidden;
+}
+header h1{
+    font-size:120%;
+    color:#313131;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border:1px solid #313131;
+    border-radius: 5px;
+    letter-spacing: 3px;
+    font-weight:400;
+    float: left;
+}
+header p{
+    font-size:100%;
+    color:#313131;
+    float: left;
+}
+
+
+/*****NAV*****/
+ul {
+  font-size: 0;
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+  font-size: 20px;
+  padding: 0 10px;
+}
+/****branding*****/
+#branding{
+    width: 60%; /*横幅指定*/
+    margin-left: 20%; /*左端から20%右側に動かす*/
+    background-color: #f0f8ff; /*背景色の指定*/
+    overflow: hidden; /*おまじない*/
+}
+#branding p{
+    color: #000000; /*文字色の変更*/
+    font-size: 120%; /*フォントサイズの調整*/
+    letter-spacing: 10px; /*文字と文字の間隔をあける*/
+    line-height: 200px; /*行間の指定（ブランディングの高さを決める）*/
+    padding-left: 3%; /*文字の左側に余白をあける*/
+}
+
+/*****ARTICLE*****/
+section{
+    display: block;
+    width: 60%;
+    margin: 20px auto;
+    overflow: hidden;
+}
+article{
+    width: calc(50% - 15px);
+    padding: 2.5%;
+    margin-bottom: 30px;
+    background-color: #f9f9f9;
+    overflow: hidden;
+    float: left;
+}
+article:nth-child(2n){
+    margin-left: 30px;
+}
+article .date{
+    font-size: 60%;
+    color: orange;
+    border: 1px solid orange;
+    padding-top:3px;
+    padding-bottom: 3px;
+    padding-right: 6px;
+    padding-left: 6px;
+    letter-spacing: 5px;
+    float: left;
+}
+article h1{
+    width: 100%;
+    font-size: 150%;
+    color: #313131;
+    letter-spacing: 3px;
+    padding-bottom:2px;
+    padding-top: 10px;
+    border-bottom: 1px solid #bababa;
+    margin-bottom: 15px;
+    float: left;
+}
+article p{
+    font-size: 100%;
+    color: #313131;
+    letter-spacing: 3px;
+    line-height: 200%;
+    margin-bottom: 10px;
+    float: left;
+}
+article .btn{
+    color: #fff;
+    border: 1px solid orange;
+    background-color: orange;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    border-radius: 5px;
+    letter-spacing: 5px;
+    text-decoration: none;
+    overflow: hidden;
+    float: right;
+}
+article .btn:hover{
+    background-color: #fff;
+    border: 1px solid orange;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+    color: orange;
+    overflow: hidden;
+}
+
+footer{
+    font-size: 80%;
+    width: 100%;
+    text-align: center;
+    padding-top: 1px;
+    padding-bottom: 1px;
+
+}
+footer p{
+    color: black;
+    letter-spacing: 1px;
+}
+
+hr{
+  height:none;border:solid 2px;color: #99CCCC;
+}
+
+body{border:10px solid #99CCCC;}
