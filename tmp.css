@@ -189,6 +189,10 @@ article .btn:hover{
     overflow: hidden;
 }
 
+.video {
+	text-align: center;
+}
+
 footer{
     font-size: 80%;
     width: 100%;
@@ -207,3 +211,11 @@ hr{
 }
 
 body{border:10px solid #99CCCC;}
+
+.conversation,.korean{
+  text-align: center;
+}
+
+.conversation img{
+  border:solid 5px #99CCCC;
+}
